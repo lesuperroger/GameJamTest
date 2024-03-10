@@ -40,6 +40,7 @@ public class scriptPlayer : MonoBehaviour
     private void AddSpeed(float accelerationSpeed)
     {
         rb.AddForce(accelerationSpeed * transform.up);
+        rb.velocity = Vector2.ClampMagnitude(rb.velocity, maxAcceleration);
     }
 
     // Add an impulse which produces a change in angular velocity (specified in degrees).
