@@ -6,8 +6,8 @@ public class Quad : MonoBehaviour
 {
     [SerializeField] Rigidbody2D player;
     [SerializeField] Renderer background;
-    [SerializeField] float scailX = 1f;
-    [SerializeField] float scailY = 1f;
+    [SerializeField] float scailX = 0.028f;
+    [SerializeField] float scailY = 0.041f;
     // Update is called once per frame
     void Update()
     {
