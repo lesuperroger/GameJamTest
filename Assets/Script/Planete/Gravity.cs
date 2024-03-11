@@ -18,7 +18,7 @@ public class Gravity : MonoBehaviour
     private void OnTriggerStay2D(Collider2D col)
     {
         Vector3 playerPos = reffTrans.position;
-        direction = (transform.position - playerPos).normalized * attractionSpeed;
+        direction = (transform.position - playerPos) * attractionSpeed;
         Debug.Log("stay");
         reffBody.AddForce(direction * Time.deltaTime, ForceMode2D.Force);
     }
