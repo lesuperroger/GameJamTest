@@ -141,15 +141,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4905604649851175327, guid: 9fd577f1700f65c43b7ff33540f93940, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 1.7423
       objectReference: {fileID: 0}
     - target: {fileID: 4905604649851175327, guid: 9fd577f1700f65c43b7ff33540f93940, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.4
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 4905604649851175327, guid: 9fd577f1700f65c43b7ff33540f93940, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 15.2
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 4905604649851175327, guid: 9fd577f1700f65c43b7ff33540f93940, type: 3}
       propertyPath: m_LocalPosition.z
@@ -305,6 +305,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &992477843 stripped
+CircleCollider2D:
+  m_CorrespondingSourceObject: {fileID: 2913377998646070929, guid: 8a218c1e0e5542f4ba4cd0fa792c2d38, type: 3}
+  m_PrefabInstance: {fileID: 1415105883702633499}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1562472327
 GameObject:
   m_ObjectHideFlags: 0
@@ -387,6 +392,14 @@ PrefabInstance:
     - target: {fileID: 3186645088406109191, guid: 8a218c1e0e5542f4ba4cd0fa792c2d38, type: 3}
       propertyPath: m_Name
       value: Terre
+      objectReference: {fileID: 0}
+    - target: {fileID: 3221768468259098178, guid: 8a218c1e0e5542f4ba4cd0fa792c2d38, type: 3}
+      propertyPath: gravityCircle
+      value: 
+      objectReference: {fileID: 992477843}
+    - target: {fileID: 3221768468259098178, guid: 8a218c1e0e5542f4ba4cd0fa792c2d38, type: 3}
+      propertyPath: attractionSpeed
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
